@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="{{ asset('style.css') }}">
+    <link rel="stylesheet" href="{{ asset('prostyle.css') }}">
     <title>User Profile</title>
+    <style>
+        
+    </style>
 </head>
-<body style="background: #111; color: white; display: flex; justify-content: center; align-items: center; height: 100vh;">
+<body>
+    <div id="profile-card" class="card"></div>
 
-    <div id="profile-card" class="card" style="width: 400px; height: 600px; position: relative;">
-        </div>
+    <div class="main">
+        <h1 class="name"></h1>
+        <p class="detail"></p>  
+    </div>
 
     <script src="{{ asset('data.js') }}"></script>
     <script src="{{ asset('proscript.js') }}"></script>
